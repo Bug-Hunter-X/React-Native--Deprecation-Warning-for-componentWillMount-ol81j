@@ -1,0 +1,1 @@
+This React Native code uses the deprecated `componentWillMount` lifecycle method.  It is recommended to use `useEffect` hook instead. The `componentWillMount` method is unreliable because it might not always be called in React Native's rendering process. Replacing it with `useEffect` will ensure consistent behavior across different versions and platforms.
